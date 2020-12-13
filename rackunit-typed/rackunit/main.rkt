@@ -314,5 +314,3 @@
                  Any))]
  [current-check-around
   (Parameter ((Thunk Any) -> Any))])
-
-
