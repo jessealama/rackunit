@@ -46,6 +46,10 @@
   (case-lambda
     ((U (Predicate Any) Regexp) (Thunk Any) -> Any)
     ((U (Predicate Any) Regexp) (Thunk Any) String -> Any))]
+ [check-match
+  (case-lambda
+    (Any Any -> Any)
+    (Any Any Any -> Any))]
  [check-not-exn
   (case-lambda
     ((Thunk Any) -> Any)
